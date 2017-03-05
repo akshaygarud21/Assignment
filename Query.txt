@@ -1,0 +1,1 @@
+Select department.dname as 'DEPTPARTMENT NAME' ,Count(*) as 'NUMBER OF EMPLOYEE' From Employee left join department on department.deptNo=Employee.deptNo Group by Employee.deptNo
