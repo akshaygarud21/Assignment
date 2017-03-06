@@ -13,7 +13,7 @@ public class MaxWordCount {
 
 		// System.out.println(str.length());
 
-		String arr[] = str.split("[(\\.)|(\\?)]"); //Splitting the sentences by finding . and ?
+		String arr[] = str.split("[(\\.)|(\\?)|(\\!)]"); //Splitting the sentences by finding . and ?
 
 		for (String s : arr) //Copying the array of splitted words into String s using for each
 		{
