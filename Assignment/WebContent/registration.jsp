@@ -113,8 +113,9 @@ table tr:not(first-child) th {
 </head>
 
 <body>
-
-<a href="List">Show</a>
+<center>
+<a href="List">Show List</a>
+</center>
 	<form action="Register">
 		<table align="center">
 
